@@ -1,0 +1,27 @@
+# ◆
+# Thank you for developing with Blueprint.
+# For documentation about conf.yml, refer to ptero.shop/dev/conf.
+
+info:
+  name: "dbEdit"
+  identifier: "dbedit"
+  description: "Simple extension to manually modify mySQL database values."
+  flags: "-run.afterinstall;"
+  version: "1.0"
+  target: "alpha-ML7"
+  author: "prplwtf"
+  icon: "assets/logo.jpg"
+  website: "github.com/prplwtf/blueprint-dbedit"
+
+admin:
+  view: "admin/view.blade.php"
+  controller: "admin/controller.php"
+  requests: "admin/requests"
+  css: ""
+
+data:
+  directory: "data"
+  public: "public"
+
+database:
+  migrations: ""
