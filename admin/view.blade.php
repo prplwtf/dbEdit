@@ -7,7 +7,7 @@
         <h3 class="box-title"><i class='bx bxs-quote-single-left' style='margin-right:5px;'></i></i>Information</h3>
       </div>
       <div class="box-body">
-        <p>dbSet is an advanced tool to quickly set any database item to a specific string. Only use this if you know what you are doing.</p>
+        <p>dbEdit is an advanced tool to quickly set any database item to a specific string. Only use this if you know what you are doing.</p>
       </div>
     </div>
 
