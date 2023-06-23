@@ -37,7 +37,7 @@ class bpidentifierreplaceExtensionController extends Controller
 
     # SET DATABASE VALUE
     if($this->blueprint->dbGet('^#identifier#^', 'table') != "" && $this->blueprint->dbGet('^#identifier#^', 'item') != "" && $this->blueprint->dbGet('^#identifier#^', 'value') != "") {
-      $this->blueprint->dbSet($this->blueprint->dbGet('^#identifier#^', 'table')."::".$this->blueprint->dbGet('^#identifier#^', 'item'), $this->blueprint->dbGet('^#identifier#^', 'value'));
+      $this->blueprint->dbSet($this->blueprint->dbGet('^#identifier#^', 'table'), $this->blueprint->dbGet('^#identifier#^', 'item'), $this->blueprint->dbGet('^#identifier#^', 'value'));
 
       $this->blueprint->notify("(dbedit) ".$this->blueprint->dbGet('^#identifier#^', 'table')."::".$this->blueprint->dbGet('^#identifier#^', 'item')." has been set to ".$this->blueprint->dbGet('^#identifier#^', 'value').".");
 
