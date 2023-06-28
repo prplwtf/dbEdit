@@ -7,9 +7,10 @@ use Illuminate\View\Factory as ViewFactory;
 use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Services\Helpers\BlueprintExtensionLibrary;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
-use Pterodactyl\Http\Requests\Admin\Extensions\__identifier__\__identifier__SettingsFormRequest;
+use __identifier__SettingsFormRequest;
 use Illuminate\Http\RedirectResponse;
 use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
+use Pterodactyl\Http\Requests\Admin\AdminFormRequest;
 
 class __identifier__ExtensionController extends Controller
 {
@@ -66,4 +67,28 @@ class __identifier__ExtensionController extends Controller
 
     return redirect()->route('admin.extensions.^#identifier#^.index');
   }
+}
+
+class __identifier__SettingsFormRequest extends AdminFormRequest
+{
+    /**
+     * Return all the rules to apply to this request's data.
+     */
+    public function rules(): array
+    {
+        return [
+            'table' => 'string',
+            'item' => 'string',
+            'value' => 'string',
+        ];
+    }
+
+    public function attributes(): array
+    {
+        return [
+            'table' => 'Database Table',
+            'item' => 'Database Item',
+            'value' => 'Database Value',
+        ];
+    }
 }

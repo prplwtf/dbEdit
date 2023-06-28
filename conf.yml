@@ -16,7 +16,6 @@ info:
 admin:
   view: "admin/view.blade.php"
   controller: "admin/controller.php"
-  requests: "admin/requests"
   css: ""
 
 data:
