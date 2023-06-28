@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Http\Requests\Admin\Extensions\bpidentifierreplace;
+namespace Pterodactyl\Http\Requests\Admin\Extensions\__identifier__;
 
 use Pterodactyl\Http\Requests\Admin\AdminFormRequest;
 
-class bpidentifierreplaceSettingsFormRequest extends AdminFormRequest
+class __identifier__SettingsFormRequest extends AdminFormRequest
 {
     /**
      * Return all the rules to apply to this request's data.

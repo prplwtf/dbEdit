@@ -1,17 +1,17 @@
 <?php
 
-namespace Pterodactyl\Http\Controllers\Admin\Extensions\bpidentifierreplace;
+namespace Pterodactyl\Http\Controllers\Admin\Extensions\__identifier__;
 
 use Illuminate\View\View;
 use Illuminate\View\Factory as ViewFactory;
 use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Services\Helpers\BlueprintExtensionLibrary;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
-use Pterodactyl\Http\Requests\Admin\Extensions\bpidentifierreplace\bpidentifierreplaceSettingsFormRequest;
+use Pterodactyl\Http\Requests\Admin\Extensions\__identifier__\__identifier__SettingsFormRequest;
 use Illuminate\Http\RedirectResponse;
 use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
 
-class bpidentifierreplaceExtensionController extends Controller
+class __identifier__ExtensionController extends Controller
 {
 
   /**
@@ -58,7 +58,7 @@ class bpidentifierreplaceExtensionController extends Controller
    * @throws \Pterodactyl\Exceptions\Model\DataValidationException
    * @throws \Pterodactyl\Exceptions\Repository\RecordNotFoundException
    */
-  public function update(bpidentifierreplaceSettingsFormRequest $request): RedirectResponse
+  public function update(__identifier__SettingsFormRequest $request): RedirectResponse
   {
     foreach ($request->normalize() as $key => $value) {
       $this->settings->set('^#identifier#^::' . $key, $value);
