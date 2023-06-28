@@ -7,7 +7,6 @@ use Illuminate\View\Factory as ViewFactory;
 use Pterodactyl\Http\Controllers\Controller;
 use Pterodactyl\Services\Helpers\BlueprintExtensionLibrary;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
-use __identifier__SettingsFormRequest;
 use Illuminate\Http\RedirectResponse;
 use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
 use Pterodactyl\Http\Requests\Admin\AdminFormRequest;
