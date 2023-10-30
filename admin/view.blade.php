@@ -28,7 +28,7 @@
     <form action="" method="POST">
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title"><i class='bx bxs-folder-plus' style='margin-right:5px;'></i></i>Add Redirect</h3>
+          <h3 class="box-title"><i class='bx bxs-edit' style='margin-right:5px;'></i></i>Set Database Value</h3>
         </div>
         <div class="box-body">
           <div class="row">
