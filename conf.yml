@@ -1,14 +1,10 @@
-# ◆
-# Thank you for developing with Blueprint.
-# For documentation about conf.yml, refer to ptero.shop/dev/conf.
-
 info:
   name: "dbEdit"
   identifier: "dbedit"
-  description: "Simple extension to manually modify mySQL database values."
+  description: "A extremely simple database editing extension for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly."
   flags: "hasInstallScript"
-  version: "1.1"
-  target: "alpha-EV0"
+  version: "1.2"
+  target: "alpha-IPS"
   author: "prplwtf"
   icon: "assets/logo.jpg"
   website: "github.com/prplwtf/blueprint-dbedit"
