@@ -7,7 +7,7 @@
 
 
 
-<p align="center">A <b>extremely simple database editing extension</b> for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly.</p>
+<p align="center">An <b>extremely simple database editing extension</b> for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly.</p>
 
 <br>
 
@@ -22,4 +22,4 @@ To install this extension, download the latest release of dbEdit and drag the `d
 <br>
 
 ### Removal
-To remove this extension from your Pterodactyl panel, run `blueprint -remove dbedit`.
+To remove dbEdit from your Pterodactyl panel, run `blueprint -remove dbedit`.
