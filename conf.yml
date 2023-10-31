@@ -7,7 +7,7 @@ info:
   target: "alpha-IPS"
   author: "prplwtf"
   icon: "assets/logo.jpg"
-  website: "github.com/prplwtf/blueprint-dbedit"
+  website: "https://github.com/prplwtf/blueprint-dbedit"
 
 admin:
   view: "admin/view.blade.php"
