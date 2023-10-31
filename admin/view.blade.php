@@ -7,17 +7,7 @@
         <h3 class="box-title"><i class='bx bxs-quote-single-left' style='margin-right:5px;'></i></i>Information</h3>
       </div>
       <div class="box-body">
-        <p>dbEdit is an advanced tool to quickly set any database item to a specific string. Only use this if you know what you are doing.</p>
-      </div>
-    </div>
-
-    <!-- Warning -->
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title"><i class='bx bx-run' style='margin-right:5px;'></i></i>Warning</h3>
-      </div>
-      <div class="box-body">
-        <p>Absolutely no support is provided for this tool or problems caused by use of this tool. All this is your own responsibility, but you probably already knew that, since you downloaded this anyways. Please keep in mind that there is 0 protection against SQL injections, exploits, etc. Everything is kept inside your admin panel, so on development and testing panels you should be "fine".</p>
+        <p>A extremely simple database editing extension for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly.</p>
       </div>
     </div>
 
