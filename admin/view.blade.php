@@ -1,24 +1,11 @@
 <div class="row">
-  <div class="col-xs-3">
-
-    <!-- Information -->
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title"><i class='bx bxs-quote-single-left' style='margin-right:5px;'></i></i>Information</h3>
-      </div>
-      <div class="box-body">
-        <p>A extremely simple database editing extension for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly.</p>
-      </div>
-    </div>
-
-  </div>
-  <div class="col-xs-9">
+  <div class="col-xs-12">
 
     <!-- Set Database Value -->
     <form action="" method="POST">
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title"><i class='bx bxs-edit' style='margin-right:5px;'></i></i>Set Database Value</h3>
+          <h3 class="box-title"><i class='bx bx-hash' style='margin-right:5px;'></i></i>Set String</h3>
         </div>
         <div class="box-body">
           <div class="row">
