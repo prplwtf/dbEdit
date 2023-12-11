@@ -5,13 +5,11 @@
   <a href="https://github.com/pterodactyl/panel">pterodactyl</a>
 </i></p>
 
-
-
 <p align="center">An <b>extremely simple database editing extension</b> for the admin panel of Pterodactyl mainly made as a quick afternoon Blueprint extension. Developers can use this to develop their own extensions and modify database values on the fly.</p>
 
 <br>
 
-> **Important**
+> [!WARNING]
 > This tool can be used by other administrators to break panels, insert sql injections and more. It's highly advised to not use this resource on product panels as that is a massive security concern.
 
 <br><br>
