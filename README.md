@@ -10,7 +10,11 @@
 <br>
 
 > [!WARNING]
-> This tool can be used by other administrators to break panels, insert sql injections and more. It's highly advised to not use this resource on product panels as that is a massive security concern.
+> THIS TOOL CAN BE USED BY OTHER ADMINISTRATORS TO BREAK PANELS, INSERT SQL INJECTIONS AND MORE. IT'S HIGHLY ADVISED TO NOT USE THIS RESOURCE ON PRODUCT PANELS AS THAT IS A MASSIVE SECURITY CONCERN
+
+### I REPEAT, DO NOT INSTALL THIS EXTENSION IN PRODUCTION
+
+(if you ignore these warnings and do so anyways, thats on you)
 
 <br><br>
 
